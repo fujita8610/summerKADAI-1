@@ -1,0 +1,24 @@
+﻿  FPS.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\student\Documents\夏休み課題１\FPS.cpp(43,5): error C2664: 'int DxLib::DrawFormatString(int,int,unsigned int,const TCHAR *,...)': 引数 4 を 'const char [12]' から 'const TCHAR *' へ変換できません。
+C:\Users\student\Documents\夏休み課題１\FPS.cpp(43,53): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3784,14): message : 'DxLib::DrawFormatString' の宣言を確認してください
+C:\Users\student\Documents\夏休み課題１\FPS.cpp(43,5): message : 引数リスト '(int, int, unsigned int, const char [12], float)' を一致させようとしているとき
+  input.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  main.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  player.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3344,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\student\Documents\夏休み課題１\player.cpp(58,24): error C2664: 'int DxLib::LoadGraph(const TCHAR *,int)': 引数 1 を 'const char [1]' から 'const TCHAR *' へ変換できません。
+C:\Users\student\Documents\夏休み課題１\player.cpp(58,34): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(2671,14): message : 'DxLib::LoadGraph' の宣言を確認してください
+C:\Users\student\Documents\夏休み課題１\player.cpp(58,24): message : 引数リスト '(const char [1])' を一致させようとしているとき
+C:\Users\student\Documents\夏休み課題１\player.cpp(83,17): error C2065: 'SCENE_GAME_OVER': 定義されていない識別子です。
+C:\Users\student\Documents\夏休み課題１\player.cpp(83,5): error C3861: 'ChangeScene': 識別子が見つかりませんでした
+C:\Users\student\Documents\夏休み課題１\player.cpp(186,26): error C2039: 'lifeText': 'PlayerData' のメンバーではありません
+C:\Users\student\Documents\夏休み課題１\so-su\player.h(9,8): message : 'PlayerData' の宣言を確認してください
+C:\Users\student\Documents\夏休み課題１\player.cpp(186,3): error C3861: 'SetUIText': 識別子が見つかりませんでした
+  score.cpp
+c1xx : fatal  error C1083: ソース ファイルを開けません。'score.cpp':No such file or directory
+  コードを生成中...
