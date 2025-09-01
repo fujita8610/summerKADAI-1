@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース">
+      <UniqueIdentifier>{3044a223-23c6-4aa7-a792-d0bf4d08f971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\player">
+      <UniqueIdentifier>{bf0edb2a-4379-4291-9d19-fd3cfe455744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\FPS">
+      <UniqueIdentifier>{bffe7726-5082-4a68-adf5-d601583c4e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\bullet">
+      <UniqueIdentifier>{6b71d1e6-58fd-45bc-a335-47e7796c9fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\GameSetting">
+      <UniqueIdentifier>{53d80998-b68d-4845-ae53-3ddb6ee3716f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\enemy">
+      <UniqueIdentifier>{6d2ccb4f-393d-4462-bf17-cc3cc56eedd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\sound">
+      <UniqueIdentifier>{91a235b6-18d6-44ff-82cc-b07da09d34a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\UI">
+      <UniqueIdentifier>{987b3b17-68d3-4543-a8b9-0f495cef2223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\bgm">
+      <UniqueIdentifier>{84b521b7-408d-486d-a057-8f5d0ed402ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\SlotMachine">
+      <UniqueIdentifier>{ca6c73bb-6838-4a03-8149-20ccba3eff7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\seene">
+      <UniqueIdentifier>{0d6ccae2-754c-4c66-bc67-8d4d3e66aac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\seene\play">
+      <UniqueIdentifier>{f3e4cd60-c50f-463c-801e-928bd9452deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\Collision">
+      <UniqueIdentifier>{dfabff8c-1419-4e48-87f2-9fb5119178b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\Score">
+      <UniqueIdentifier>{02ee5c40-b88c-4310-972f-f52c8f033360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\seene\Title">
+      <UniqueIdentifier>{1e22d8f4-2274-4af4-af2e-1636110dafa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\seene\clear">
+      <UniqueIdentifier>{6311172b-99ed-4a5b-b74a-3fbd18b19152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース\seene\GameOver">
+      <UniqueIdentifier>{ab85209f-f9f7-4927-af0f-1b7b617469ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース\player</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>ソース\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="play.cpp">
+      <Filter>ソース\seene\play</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletmg.cpp">
+      <Filter>ソース\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletstring.cpp">
+      <Filter>ソース\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>ソース\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>ソース\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>ソース\bgm</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>ソース\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotMachine.cpp">
+      <Filter>ソース\SlotMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>ソース\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース\seene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>ソース\seene\clear</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>ソース\seene\GameOver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="so-su\player.h">
+      <Filter>ソース\player</Filter>
+    </ClInclude>
+    <ClInclude Include="so-su\FPS\FPS.h">
+      <Filter>ソース\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="play.h">
+      <Filter>ソース\seene\play</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletmg.h">
+      <Filter>ソース\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletp.h">
+      <Filter>ソース\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletstring.h">
+      <Filter>ソース\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetting.h">
+      <Filter>ソース\GameSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="baseenemy.h">
+      <Filter>ソース\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>ソース\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>ソース\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>ソース\bgm</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>ソース\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotMachine.h">
+      <Filter>ソース\SlotMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソース\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>ソース\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ソース\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ソース\seene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>ソース\seene\clear</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>ソース\seene\GameOver</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
